@@ -1,0 +1,15 @@
+.secao {
+    width: 100%;
+}
+
+@media(min-width: 768px){
+    .secao {
+        width: 50%;
+    }
+}
+
+@media(min-width: 1024px){
+    .secao {
+        width: 33.3%;
+    }
+}
