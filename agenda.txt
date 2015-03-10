@@ -1,0 +1,6 @@
+-MEDIA QUERIES-
+
+layout condicional
+media querie e media type
+breakpoint de conteúdo
+mobile first
