@@ -1,0 +1,69 @@
+- LAYOUT FLUIDO -
+/* definir limite máximo ou mínimo com min-width e max-width */
+
+
+
+- MEDIA QUERIES -
+
+.secao {
+    width: 100%;
+}
+
+/*
+?px = breakpoint de conteúdo, ponto de quebra
+width/height: de tamanho ?px
+min-width/height: de ?px ou maiores (para cima/no mínimo) mobile first!
+max-width/height: de ?px ou menores (para baixo/até) ...desktop first
+
+width/height: tamanho do body do navegador
+device-width/height: tamanho da tela física do dispositivo
+
+orientation: portrait ou landscape
+
+...
+*/
+
+@media(min-width: 768px){
+    .secao {
+        width: 50%;
+    }
+}
+
+@media(min-width: 1024px){
+    .secao {
+        width: 33.3%;
+    }
+}
+
+/* tamanho de fonte condicional ao tamanho da janela */
+
+@media(min-width: 600px){
+    html {
+        font-size: 1.125em;
+    }
+}
+
+@media(min-width: 1000px){
+    html {
+        font-size: 1.25em;
+    }
+}
+
+/* número de colunas condicional ao tamanho da janela */
+
+/* mobile first */
+.secao {
+    width: 100%;
+}
+
+@media(min-width: 600px){
+    .secao {
+        width: 50px;
+    }
+}
+
+@media(min-width: 1000px){
+    .secao {
+        width: 33.333%;
+    }
+}
